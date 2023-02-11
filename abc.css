@@ -1,0 +1,40 @@
+body
+{
+background-color: black;
+}
+@keyframes horrorly {
+    0% {
+        left: 0px;
+        opacity: 1;
+        font-size: 18px;
+    }
+    25% {
+        left: 50px;
+        opacity: 0.6;
+        font-size: 20px;
+    }
+    50% {
+        left: 100px;
+        opacity: 0.3;
+        font-size: 22px;
+    }
+    75% {
+        left: 150px;
+        opacity: 0.6;
+        font-size: 20px;
+    }
+    100% {
+        left: 200px;
+        opacity: 1;
+        font-size: 18px;
+    }
+}
+
+#text {
+    animation-name: horrorly;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
